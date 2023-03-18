@@ -6,7 +6,7 @@ class Config:
     TELEGRAM_APP_ID=int(os.environ["TELEGRAM_APP_ID", "26762870"])
     
     if not TELEGRAM_TOKEN:
-        raise ValueError('TELEGRAM BOT TOKEN not set')
+        raise ValueError("TELEGRAM BOT TOKEN not set")
     
     if not TELEGRAM_APP_HASH:
         raise ValueError("TELEGRAM_APP_HASH not set")
