@@ -35,5 +35,5 @@ async def _(bot, msg):
 
 @bot.on_message(filters.command("start") & filters.private)
 async def hello(bot, message):
-    await message.reply("Hello, This Is Banall Bot I can Ban Members Within seconds!\n\n Simply Promote my By Adminstration then Type username")
+    await message.reply("Hello, This Is chat bot")
 
